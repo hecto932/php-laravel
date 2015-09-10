@@ -1,0 +1,18 @@
+{
+    "name": "hecto932/php-laravel",
+    "description": "Proyecto php en Platzi con Laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector Flores",
+            "email": "hecto932@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "PlatziPHP\\": "src/"
+        }
+    }
+}

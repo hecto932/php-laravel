@@ -9,4 +9,4 @@ $request = Request::capture();
 
 $controller = new HomeController();
 
-echo $controller->index($request);
+$controller->index($request);

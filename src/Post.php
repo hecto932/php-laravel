@@ -25,7 +25,10 @@ class Post
 		return 'by '.$this->author->getFirstName();
 	}
 
-	
+	public function getTitle()
+	{
+		return $this->title;
+	}
 }
 
 ?>
